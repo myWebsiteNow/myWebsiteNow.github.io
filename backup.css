@@ -211,7 +211,7 @@ body {
 .TheGrid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 700px 75px 2000px 50px;
+    grid-template-rows: 700px 75px 3500px 50px;
 }
 
 .cell {
