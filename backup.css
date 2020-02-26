@@ -1,5 +1,6 @@
-/***** FOR DESKTOP *********/
 
+
+/***** FOR DESKTOP *********/
  @media only screen and (min-width: 1000px) {   
 *{
   box-sizing: border-box;
@@ -194,7 +195,8 @@ body {
     
     
 /* For moble */
-@media (max-width: 1000px) {
+@media only screen and (min-width: 199px) and (max-width: 999px) {
+    
 *{
   box-sizing: border-box;
   padding: 0;
@@ -274,13 +276,13 @@ body {
     /* Grid settings */
     display: grid;
     grid-gap: 30px;
-    grid-template-rows: 20px 1fr 1fr 1fr 1fr 20px;
+    grid-template-rows: 20px repeat(4, minmax(1fr, 440px)) 20px;
     grid-template-columns: 20px 1fr 20px;
 }
 
     .body1 {
         border-radius: 10px;
-        font-size: 2vw;
+        font-size: 16px;
         padding: 75px;
         background: white;
         grid-column: 2/3;
@@ -289,7 +291,7 @@ body {
 
     .body2 {
         border-radius: 10px;
-        font-size: 2vw;
+        font-size: 16px;
         padding: 75px;
         background: white;
         grid-column: 2/3;
@@ -312,7 +314,7 @@ body {
     
     .body3 {
         border-radius: 10px;
-        font-size: 2vw;
+        font-size: 16px;
         padding: 75px;
         background: white;
         grid-column: 2/3;
