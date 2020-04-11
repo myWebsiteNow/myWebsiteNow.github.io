@@ -25,13 +25,13 @@ function run() {
     if (start) {
         // Call DB and get data for user
         
-        // addCategory("Tests");
-        // addCategory("Quiz");
-        // addCategory("Homework");
+        addCategory("Tests");
+        addCategory("Quiz");
+        addCategory("Homework");
     
-        // addCategoryLineItem("Tests", "id#1", "blue");
-        // addCategoryLineItem("Quiz", "id#2", "green");
-        // addCategoryLineItem("Homework", "id#3", "red");
+        addCategoryLineItem("Tests", "id#1", "blue");
+        addCategoryLineItem("Quiz", "id#2", "green");
+        addCategoryLineItem("Homework", "id#3", "red");
         start = false;
     }
     
@@ -45,12 +45,12 @@ function run() {
 function getTasks() {
     // Get the tasks for the week from DB using DMY
     connectToDB();
-    // populateTask(1, "Finish the description", "#FFF2CC", "Quiz", "1", "1", "1");
-    // populateTask(1, "Review For Testing", "#D9EAD3", "Tests", "2", "2", "2");
-    // populateTask(1, "Net admin ch 13", "#6FA8DC", "Homewok", "3", "3", "3");
-    // populateTask(1, "Review For OS", "#F4CCCC", "Quiz", "4", "4", "4");
+    populateTask(1, "Finish the description", "#FFF2CC", "Quiz", "1", "1", "1");
+    populateTask(1, "Review For Testing", "#D9EAD3", "Tests", "2", "2", "2");
+    //populateTask(1, "Net admin ch 13", "#6FA8DC", "Homewok", "3", "3", "3");
+    populateTask(1, "Review For OS", "#F4CCCC", "Quiz", "4", "4", "4");
     
-    // populateSmallTask(2, "Review For OS", "#F4CCCC", "SmallQuiz", "5", "1", "5");
+    populateSmallTask(2, "Review For OS", "#F4CCCC", "SmallQuiz", "5", "1", "5");
 }
 
 
