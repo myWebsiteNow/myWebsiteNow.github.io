@@ -1,7 +1,7 @@
 const ADULT = "Adult";
 const KID = "Kid"
 const DEFAULT = ""
-const RE_DIRECT = "file:///Users/bennettlopez/Desktop/SECRET%20SANTA/1911262602/Register/redirect.html"
+const RE_DIRECT = "https://mywebsitenow.github.io/1911262602/Register/redirect.html"
 
 var currentGroup = DEFAULT;
 
