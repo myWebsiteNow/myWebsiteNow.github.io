@@ -1,4 +1,4 @@
-const FILE_PATH = "file:///Users/bennettlopez/Desktop/SECRET%20SANTA/1911262602/FindOut/names.txt"
+const FILE_PATH = "https://mywebsitenow.github.io/1911262602/FindOut/names.txt"
 var participants = [];
 
 function run() {
