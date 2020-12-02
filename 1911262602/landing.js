@@ -1,8 +1,8 @@
 const EXIT_MESSAGE = "Thanks For Participating! See you Next Year!";
 const CUT_OFF_DAY = 1;
 const DECEMBER = 12;
-const REGISTER_URL = "file:///Users/bennettlopez/Desktop/SECRET%20SANTA/1911262602/Register/index.html"
-const FIND_URL = "file:///Users/bennettlopez/Desktop/SECRET%20SANTA/1911262602/FindOut/index.html"
+const REGISTER_URL = "https://mywebsitenow.github.io/1911262602/Register/index.html"
+const FIND_URL = "https://mywebsitenow.github.io/1911262602/FindOut/index.html"
  
 function addPerson() {
     location.href = REGISTER_URL;
