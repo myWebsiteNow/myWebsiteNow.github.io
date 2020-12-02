@@ -1,4 +1,4 @@
- const EXTENSION = "file:///Users/bennettlopez/Desktop/SECRET%20SANTA/"
+ const EXTENSION = "https://mywebsitenow.github.io/"
  
  
  function formInput() {
