@@ -9,7 +9,7 @@ function run() {
 
 function done() {
     event.preventDefault();
-    var display = "Name not found! Make sure its the first name/nickname";
+    var display = "Name not found! Make sure its <u>YOUR</u> first name";
     var name = document.getElementById("name").value;
     var i;
     console.log(participants);
