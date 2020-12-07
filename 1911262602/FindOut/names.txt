@@ -1,3 +1,13 @@
-Connor,Bennett,blo,Kid
-Erika,connor,clo,Adult
-Bennett,Erika,erikalopez,Adult
+Diego,Connor,ADULT,Adult
+Connor,Maddie,Mads,Adult
+Sabrina,Lori,Aunt lori,Adult
+Irene,Sabrina,sissy,Adult
+Martin,Steven,Uncle Steve,Adult
+Erin,Irene,Nana,Adult
+Steven,Martin,Charles,Adult
+Lori,Diego,BigDaddy,Adult
+Maddie,Erin,E-pat,Adult
+Sophia,Leeland,lee,Kid
+Erika,Bennett,B-lo,Kid
+Bennett,Sophia,Lil SoSo,Kid
+Leeland,Erika,Elo$,Kid
