@@ -10,4 +10,4 @@ Maddie,Erin,E-pat,Adult
 Sophia,Leeland,lee,Kid
 Erika,Bennett,B-lo,Kid
 Bennett,Sophia,Lil SoSo,Kid
-Leeland,Erika,Elo$,Kid
+Leland,Erika,Elo$,Kid
