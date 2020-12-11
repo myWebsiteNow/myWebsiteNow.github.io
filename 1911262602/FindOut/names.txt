@@ -7,7 +7,7 @@ Erin,Irene,Nana,Adult
 Steven,Martin,Charles,Adult
 Lori,Diego,BigDaddy,Adult
 Maddie,Erin,E-pat,Adult
-Sophia,Leeland,lee,Kid
+Sophia,Leland,lee,Kid
 Erika,Bennett,B-lo,Kid
 Bennett,Sophia,Lil SoSo,Kid
 Leland,Erika,Elo$,Kid
