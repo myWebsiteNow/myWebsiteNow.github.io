@@ -1,0 +1,13 @@
+Diego,Connor,ADULT,Adult
+Connor,Maddie,Mads,Adult
+Sabrina,Lori,Aunt lori,Adult
+Irene,Sabrina,sissy,Adult
+Martin,Steven,Uncle Steve,Adult
+Erin,Irene,Nana,Adult
+Steven,Martin,Charles,Adult
+Lori,Diego,BigDaddy,Adult
+Maddie,Erin,E-pat,Adult
+Sophia,Leland,lee,Kid
+Erika,Bennett,B-lo,Kid
+Bennett,Sophia,Lil SoSo,Kid
+Leland,Erika,Elo$,Kid
