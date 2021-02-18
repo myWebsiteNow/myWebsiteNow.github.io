@@ -1,21 +1,21 @@
 @font-face {
   font-family: lineto-circular-bold;
-  src: url("/Users/bennettlopez/Desktop/ACM-W/Fonts/lineto-circular-bold.woff2");
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-bold.woff2);
 }
 
 @font-face {
   font-family: lineto-circular-book;
-  src: url(/Users/bennettlopez/Desktop/ACM-W/Fonts/lineto-circular-book.woff2);
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-book.woff2);
 }
 
 @font-face {
   font-family: lineto-circular-medium;
-  src: url(/Users/bennettlopez/Desktop/ACM-W/Fonts/lineto-circular-medium.woff2);
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-medium.woff2);
 }
 
 @font-face {
   font-family: lineto-circular-regular;
-  src: url(/Users/bennettlopez/Desktop/ACM-W/Fonts/lineto-circular-regular.woff2);
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-regular.woff2);
 }
 
 :root {
