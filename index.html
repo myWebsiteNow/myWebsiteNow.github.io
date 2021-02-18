@@ -1,35 +1,41 @@
+<!-- https://kickpush.co -->
+<!DOCTYPE html>
 <html>
     <head>
+        <!-- Landing CSS -->
+        <link rel="stylesheet" href="LandingStyle.css">
+        <!-- Landing JS-->
+        <script type="text/javascript" src="Landing.js"></script>
+        <!-- Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
-        
-        <script src="snow.js"></script>
-        <script src="landing.js"></script>
-        
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="landing.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <div id="TheGrid">
-            <dev id="top_banner"> Welcome To The Family Secret Santa!</dev>
-            <form id="MiddleSection" method="post" onsubmit="formInput()">
-                <label for="uname"><b>Username</b></label>
-                <br>
-                <input type="text" name="uname" class="input" id="inOne" required>
-                <br>
-                <br>
-                <label for="psw"><b>Password</b></label>
-                <br>
-                <input type="password"  name="psw" class="input" id="inTwo" required>
-                <br>
-                <br>
-                <button class="btn btn-info btn-lg">Login</button>
-                
-            </form>
+    <body onload="iconClick()">
             
+        <div id="TheGrid">
+            <div id= "Head_FillerSpace"></div>
+            <div id="Head_Container">
+                <div id="Head_Title">ACM-W</div>
+                <div id="Head_Links">People Events Contact</div>
+            </div>
+            <div id="Body_Container">
+                <div id="Body_Content">
+                    <p id="BC_Title">We don't even like <br> the internet</p>
+                    <p id="BC_Body">ACM-W: Women changing the internet</p>
+                </div>
+            </div>
+            <div id="Container_One">
+                <div id="C1_Description">
+                    <p style="display:inline-block" id="C1_Title">CODE JAM&nbsp;</p> <p style="display:inline-block;color:#f5f4f1;" id="info" >&nbsp;I</p> 
+                    <p id="C1_Body"><br>Ready. Set. Code! George Fox&#39;s first annual Code Jam is a weekend long, fully virtual event where students will work collaboratively on a team to build a tech-related project in <b>30 hours. </b><br><br>
+                        This Code Jam is geared for George Fox University students to turn technology ideas into real-life, practical projects while working in a welcoming and supportive atmosphere. This is the place to showcase your creativity and innovation, as well as create something super cool outside of the classroom!</p>
+                
+                
+                </div>
+                <div id="C1_Container"> 
+                    <div id="C1_Code"></div>
+                </div>
+            </div>
         </div>
     </body>
-    
 </html>
