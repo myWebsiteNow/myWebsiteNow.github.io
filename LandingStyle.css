@@ -36,7 +36,7 @@
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 50px 59px 900px 400px 600px;
+    grid-template-rows: 50px 59px 900px 500px 600px;
 }
 
 #Head_FillerSpace {
