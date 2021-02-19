@@ -20,6 +20,7 @@
 
 :root {
   --mainRed: #f5f4f1;/*#EE5050;*/
+  --C1_Height: 700px;
 }
 
 * {
@@ -27,15 +28,15 @@
     margin: 0;
     /* Google Font*/
     font-family: lineto-circular-regular;
-    color: #F6C639;
     background-color: var(--mainRed);
+    color: #F6C639;
 }
 
 #TheGrid {
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 50px 59px 900px 900px;
+    grid-template-rows: 50px 59px 900px 400px 600px;
 }
 
 #Head_FillerSpace {
@@ -48,7 +49,7 @@
     grid-column: 1;
     grid-row: 2/3;
     height: 59px;
-    
+    background-color: var(--mainRed);
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 50vw 50vw;
@@ -103,12 +104,11 @@
 
 #Container_One {
     grid-column: 1;
-    grid-row: 4/5;
-    
+    grid-row: 5/6;
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 50vw 50vw;
-    grid-template-rows: 900px;
+    grid-template-rows: 775px;
 }
 
     #C1_Description {
@@ -129,8 +129,8 @@
     
         #C1_Body {
             color: black;
-            padding-left: 100px;
-            padding-right: 100px;
+            padding-left: 150px;
+            padding-right: 150px;
             font-size: 20px;
             font-family: lineto-circular-book;
         }
@@ -141,7 +141,7 @@
         /*Grid Settings*/
         display: grid;
         grid-template-columns: 45vw 5vw;
-        grid-template-rows: 800px;
+        grid-template-rows: 750px;
     }
 
         #C1_Code {
@@ -153,6 +153,27 @@
             grid-column: 1/2;
             grid-row: 1;
         }
+        
+    #Container_Two {
+        grid-column: 1;
+        grid-row: 4/5;
+         /*Grid Settings*/
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 400px;
+    }
+        #C2_Countdown {
+            font-size: 75px;
+            padding-top: 25px;
+            text-align: center;
+            grid-column: 1;
+            grid-row: 1;
+        }
+        
+        
+        
+        
+        
 /*Not an HTML Class, but added by the JS*/
 .sticky {
   position: fixed;
