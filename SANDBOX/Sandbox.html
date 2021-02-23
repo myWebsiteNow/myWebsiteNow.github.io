@@ -1,20 +1,35 @@
-<!-- https://kickpush.co -->
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
     <head>
-        <link rel="stylesheet" href="/Users/bennettlopez/Desktop/myWebsiteNow.github.io/magic-master/dist/magic.css">
-        <!-- Landing CSS -->
-        <link rel="stylesheet" href="Sandbox.css">
-        <!-- Landing JS-->
-        <script type="text/javascript" src="Sandbox.js"></script>
+        <script src="./anime/lib/anime.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
-    <body onload="onLoad()">
-       <div id="TheGrid">
-           <div id="photo"><img src="profile1.jpeg" id="rawPhoto"></div>
-           <div id="fill_0"></div>
-           <div id="fill_1"></div>
-           <div id="fill_2"></div>
-           <div id="fill_3"></div>
-       </div>
+    <body>
+        
+        <div id="photo"></div>
+
+    <style>
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        text-align: center;
+    }
+    </style>
+
+    <script>
+    $(document).ready(function(){
+        $("#photo").mouseenter(function() {
+            $(this).stop(true).animate({height: '0px'})
+            console.log("Left")
+        })
+        .mouseleave(function() {
+             $(this).stop(true).animate({height: '100px'})
+             console.log("Right")
+        });
+    });
+        
+        
+    </script>
     </body>
 </html>

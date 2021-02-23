@@ -1,0 +1,200 @@
+@font-face {
+  font-family: lineto-circular-bold;
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-bold.woff2);
+}
+
+@font-face {
+  font-family: lineto-circular-book;
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-book.woff2);
+}
+
+@font-face {
+  font-family: lineto-circular-medium;
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-medium.woff2);
+}
+
+@font-face {
+  font-family: lineto-circular-regular;
+  src: url(https://mywebsitenow.github.io/Fonts/lineto-circular-regular.woff2);
+}
+
+:root {
+  --mainColor: #f5f4f1;/*#EE5050;*/
+  --C1_Height: 700px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+* {
+    font-family: lineto-circular-regular;
+    padding: 0;
+    margin: 0;
+    color: #F6C639;
+}
+
+#TheGrid {
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 50px 59px 900px repeat(3, 700px)
+}
+
+
+#Head_FillerSpace {
+    background-color: var(--mainColor);
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+#Head_Container {
+    grid-column: 1;
+    grid-row: 2/3;
+    height: 59px;
+    background-color: var(--mainColor);
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 59px;
+}
+
+    #Head_Title {
+        color: black;
+        padding-top: 15px;
+        padding-left: 30px;
+        font-size: 25px;
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    #ACM_W {
+        color: black;
+    }
+    
+    #Head_Links {
+        padding-top: 10px;
+        padding-right: 10vw;
+        text-align: right;
+        word-spacing: 50px;
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    
+#WinnerTitle {
+    background-color: var(--mainColor);
+    text-align: center;
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+    #WT_Header {
+        color: black;
+        font-size: 50px;
+        padding-top: 350px;
+    }
+    
+    #WT_Footer {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+#FirstPlaceContainer {
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 4/5;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
+
+#SecondPlaceContainer {
+    background-color: var(--mainColor);
+    grid-column: 1;
+    grid-row: 5/6;
+    
+     /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
+
+#ThirdPlaceContainer {
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 6/7;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
+
+.ProfilePhoto {
+    height: 150px;
+    width: 150px;
+}
+
+.ProfPhoto {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.ProjectImage {
+    height: 150px;
+    width: 150px;
+}
+
+.PeopleConteriner {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: repeat(4, 18vw);
+    grid-template-rows: 250px;
+}
+    
+.TextContainer {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.ImageContainer {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+    
+.Title {
+    font-size: 30px;
+}
+
+.Excerpt {
+    padding: 30px;
+    color: black;
+}
+
+/*Not an HTML Class, but added by the JS*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}

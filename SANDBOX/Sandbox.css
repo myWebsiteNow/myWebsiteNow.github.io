@@ -1,42 +1,5 @@
-#TheGrid {
-    /*Grid Settings*/
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 400px 300px 400px 1000px 100px;
-}
-
-#fill_0 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    background-color: blue;
-}
-
-#fill_1 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    background-color: green;
-}
-
-#fill_2 {
-    grid-column: 1/2;
-    grid-row: 4/5;
-    background-color: yellow;
-}
-
-#fill_3 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-    background-color: pink;
-}
-
-
-#photo {
-    text-align: center;
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-#rawPhoto {
-    max-height; 300px;
-    max-width: 300px;
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
 }

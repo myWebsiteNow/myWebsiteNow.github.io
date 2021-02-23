@@ -1,4 +1,13 @@
+document.addEventListener('scroll', function(){ updateOnScroll() });
 
+var once = true;
+function updateOnScroll() {
+    var position = window.pageYOffset || document.documentElement.scrollTop;
+    if (position > 500 && once) {
+        animateCode();
+        once = false;
+    }    
+}
 
 
 function onLoad() {
@@ -11,7 +20,6 @@ function onLoad() {
     window.addEventListener('scroll', function() {
         scrollLogic();
     });
-    animateCode();
     iconClick()
     fadeText(titleElement, bodyElement);
     clockUpdate();
@@ -32,7 +40,6 @@ function scrollLogic() {
 
 function iconClick() {
     var title = document.getElementById("info");
-    console.log(title)
     var isClicked = false;
     var id = setInterval(frame, 800);
     function frame() {
@@ -134,7 +141,7 @@ function clockUpdate() {
         else {
             numSeconds = numSeconds - 1;
             
-            time.innerHTML = "<p style=\"display:inline-block; color:black;\">" + String(numDays) + " Day&nbsp;</p>" + String(numHours) + " Hours <p style=\"display:inline-block; color:black;\">" + String(numMinutes) +" Minutes</p> " + String(numSeconds) + " Seconds</div>"
+            time.innerHTML = "<p style=\"display:inline-block; color:black;\">" + String(numDays) + " Days&nbsp;</p>" + String(numHours) + " Hours <p style=\"display:inline-block; color:black;\">" + String(numMinutes) +" Minutes</p> " + String(numSeconds) + " Seconds</div>"
         }
         if (numSeconds <= 0) {
             numMinutes = numMinutes - 1;
@@ -153,20 +160,8 @@ function clockUpdate() {
         
         
     }
-    
-    
 }
-
-
-
-
-
 
 var codeSnipit = "Python:!!    # Load the CodeJam into memory!!    codeJameBinary = open(\"C://CodeJam\", \"r\");!!!!   for Coders in codeJameBinary:!!        if Coders == Awesome:   !!            Jump(Java)!!        else:!!            pass #There is no else ;)!!Java: !!    Public Static void main() {!!        System.out.print(\"We take all the awesome coders\");!!        Coder<IsAwsome> you = new Coder<IsAwsome>(\"Let's Code Jam\");!!        if (you.isReady()) {!!            Jump(C++)!!        }!!    }!!    !!C++!!    #include <stdio.h>!!    int main( int argc, const char* argv[] ) {!!        for (int i = 0; i < argc; ++i)  {!!            if (argv[i] == \"Let's Have Fun Coding & Jamming\") {!!                exit(0)!!            }!!        }!!    }"
-
-function circ(timeFraction) {
-  return 1 - Math.sin(Math.acos(timeFraction));
-}
-
 
 
