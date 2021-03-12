@@ -51,7 +51,7 @@ a:active {
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 50px 59px 900px
+    grid-template-rows: 50px 59px 900px repeat(3, 700px)
 }
 
 
@@ -112,6 +112,38 @@ a:active {
         font-size: 20px;
     }
     
+#FirstPlaceContainer {
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 4/5;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
+
+#SecondPlaceContainer {
+    background-color: var(--mainColor);
+    grid-column: 1;
+    grid-row: 5/6;
+    
+     /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
+
+#ThirdPlaceContainer {
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 6/7;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 75vw 25vw;
+    grid-template-rows: 200px 500px
+}
 
 .ProfilePhoto {
     height: 150px;

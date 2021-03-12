@@ -162,6 +162,6 @@ function clockUpdate() {
     }
 }
 
-var codeSnipit = "Python:!!    # Load the CodeJam into memory!!    codeJameBinary = open(\"C://CodeJam\", \"r\");!!!!   for Coders in codeJameBinary:!!        if Coders == Awesome:   !!            Jump(Java)!!        else:!!            pass #There is no else ;)!!Java: !!    Public Static void main() {!!        System.out.print(\"We take all the awesome coders\");!!        Coder<IsAwsome> you = new Coder<IsAwsome>(\"Let's Code Jam\");!!        if (you.isReady()) {!!            Jump(C++)!!        }!!    }!!    !!C++!!    #include <stdio.h>!!    int main( int argc, const char* argv[] ) {!!        for (int i = 0; i < argc; ++i)  {!!            if (argv[i] == \"Let's Have Fun Coding & Jamming\") {!!                exit(0)!!            }!!        }!!    }"
+var codeSnipit = "Python:!!    # Load the CodeJam into memory!!    codeJamBinary = open(\"C://CodeJam\", \"r\");!!!!   for Coders in codeJameBinary:!!        if Coders == Awesome:   !!            Jump(Java)!!        else:!!            pass #There is no else ;)!!Java: !!    Public Static void main() {!!        System.out.print(\"We take all the awesome coders\");!!        Coder<IsAwsome> you = new Coder<IsAwsome>(\"Let's Code Jam\");!!        if (you.isReady()) {!!            Jump(C++)!!        }!!    }!!    !!C++!!    #include <stdio.h>!!    int main( int argc, const char* argv[] ) {!!        for (int i = 0; i < argc; ++i)  {!!            if (argv[i] == \"Let's Have Fun Coding & Jamming\") {!!                exit(0)!!            }!!        }!!    }"
 
 
