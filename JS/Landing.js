@@ -111,7 +111,7 @@ function clockUpdate() {
     var time = document.getElementById("C2_Countdown");
     var today = new Date();
     var endDate = new Date(2021, 2, 19, 0, 0, 0, 0)
-    var timeDifference = Math.abs(today - endDate);
+    var timeDifference = endDate - today;
     if (timeDifference < 0) {
         time.innerHTML = "See You <p style=\"display:inline-block; color:black;\">Next</p> Year!"
     }
