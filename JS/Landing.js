@@ -115,6 +115,7 @@ function clockUpdate() {
     if (timeDifference < 0) {
         time.innerHTML = "See You <p style=\"display:inline-block; color:black;\">Next</p> Year!"
     }
+    else {
     var numDays = timeDifference / 86400000
     numDays = parseInt(numDays, 10)
     timeDifference = timeDifference - (numDays * 86400000)
@@ -157,7 +158,7 @@ function clockUpdate() {
             numDays = numDays - 1;
             numHours = 59;
         }
-        
+    }
         
     }
 }
