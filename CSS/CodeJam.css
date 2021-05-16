@@ -51,9 +51,8 @@ a:active {
     /*Grid Settings*/
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 50px 59px 900px
+    grid-template-rows: 50px 59px 900px repeat(3, 900px)
 }
-
 
 #Head_FillerSpace {
     background-color: var(--mainColor);
@@ -112,6 +111,55 @@ a:active {
         font-size: 20px;
     }
     
+#FirstPlaceContainer {
+    text-align: center;
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 4/5;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 200px 500px
+}
+
+#SecondPlaceContainer {
+    text-align: center;
+    background-color: var(--mainColor);
+    grid-column: 1;
+    grid-row: 5/6;
+    
+     /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 200px 500px
+}
+
+    #SP_Portrait3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #SP_Portrait4 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+#ThirdPlaceContainer {
+    text-align: center;
+    background-color: #ededed;
+    grid-column: 1;
+    grid-row: 6/7;
+    
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 200px 500px
+}
+
+    #TP_Portrait3 {
+        font-size: 30px;
+    }
 
 .ProfilePhoto {
     height: 150px;
@@ -124,8 +172,11 @@ a:active {
 }
 
 .ProjectImage {
-    height: 150px;
-    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-height: 90%;
+    max-width: 50vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .PeopleConteriner {
@@ -133,7 +184,16 @@ a:active {
     grid-row: 1/2;
     /*Grid Settings*/
     display: grid;
-    grid-template-columns: repeat(4, 18vw);
+    grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: 250px;
+}
+
+.PeopleConteriner4 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /*Grid Settings*/
+    display: grid;
+    grid-template-columns: repeat(4, 15vw);
     grid-template-rows: 250px;
 }
     
@@ -146,13 +206,15 @@ a:active {
 }
 
 .ImageContainer {
+    padding-top: 50px;
     text-align: center;
     grid-column: 1/2;
     grid-row: 2/3;
 }
     
 .Title {
-    font-size: 30px;
+    font-size: 40px;
+    font-style: italic;
 }
 
 .Excerpt {
